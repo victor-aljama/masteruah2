@@ -14,5 +14,6 @@ Para subirlo necesitamos el comando "git push origin v0.1"
 
 6- Si queremos crear una rama nueva introduciremos el código "git branch v0.2" y para posicionarnos en ella haremos uso de "git checkout v0.2". Podemos comprobar que nos encontramos en dicha rama con "git branch". Utilizaremos el mismo comando para crear el archivo2.txt (type nul > 2.txt)
 
-7- Nos posicionamos en la rama main con "git checkout main" y después usamos "git merge v0.2" para hacer merge directo.![image-20220314201421905](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220314201421905.png)
+7- Nos posicionamos en la rama main con "git checkout main" y después usamos "git merge v0.2" para hacer merge directo.![image-20220314213512471](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220314213512471.png)
 
+8- Abrimos el archivo 1.txt mediante el comando "start 1.txt", lo modificamos, lo guardamos y hacemos commit.
