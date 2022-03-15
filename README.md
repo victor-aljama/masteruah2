@@ -84,3 +84,7 @@ Crearemos una nueva organización pulsando en el símbolo + en la parte superior
 
 Para crear los equipos accederemos a la organización>equipos>nuevo. En este apartado crearemos ambos apartados y añadiremos a las personas deseadas. Tras esto pulsaremos sobre "ajustes" de la organización y configuraremos a nuestro gusto los permisos para miembros y administradores.
 
+### Fork y pull request
+
+Para realizar los forks tendremos que buscar y acceder al repositorio de dos compañeros buscando el nombre del mismo, después, en la esquina superior derecha pulsaremos sobre "fork", lo que hara que se descargue una copia del archivo en nuestro perfil. En este punto tendríamos solamente que editar el código de html y escribir nuestro nombre en el mismo, guardarlo y enviar al autor un pull request solicitando que añada al código los cambios que nosotros hemos realizado.
+
