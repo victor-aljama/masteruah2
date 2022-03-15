@@ -73,3 +73,14 @@ Para añadir una estrella a sus repositorios debemos acceder a dicho apartado en
 ### Colaboradores
 
 Si queremos añadir colaboradores al repositorio para que lo puedan modificar sin necesidad de realizar pull requests accederemos al repositorio deseado>ajustes>colaboradores>añadir. Una vez aquí necesitamos su email o nombre de usuario para enviar una invitación. El resultado final es este: <img src="C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315125447349.png" alt="image-20220315125447349" style="zoom:50%;" />
+
+### Organizaciones
+
+Crearemos una nueva organización pulsando en el símbolo + en la parte superior y posteriormente en nueva organización, desde aquí no tenemos más que seguir las instrucciones que nos dan y cumplir el requisito que nos piden del nombre, en mi caso "misteruah-victor-aljama".
+
+<img src="C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315131918097.png" alt="image-20220315131918097" style="zoom:50%;" />
+
+### Equipos
+
+Para crear los equipos accederemos a la organización>equipos>nuevo. En este apartado crearemos ambos apartados y añadiremos a las personas deseadas. Tras esto pulsaremos sobre "ajustes" de la organización y configuraremos a nuestro gusto los permisos para miembros y administradores.
+
