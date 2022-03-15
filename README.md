@@ -22,3 +22,7 @@ Para comprobar que efectivamente hay diferencias entre las ramas introducimos en
 
 Esto nos servirá para saber qué cambios tenemos que hacer y en qué rama para conservar la versión deseada. Una vez hayamos entrado en los archivos necesarios para modificarlos finalmente podremos hacer el merge que nos piden mediante el código ya visto estando antes posicionados en la rama main: "git merge v0.2" ![image-20220315105138475](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315105138475.png)
 
+9- Para mostrar una lista de las ramas que hemos creado basta con introducir el siguiente comando:![image-20220315110245406](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315110245406.png)
+
+10- Para eliminar la rama v0.2 solamente tendremos que usar "git branch -d v0.2" o, como ha sido mi caso al no estar completamente sincronizada con la rama remota, "git branch -D v0.2". Una vez la hemos borrado a nivel local, para hacerlo a nivel remoto utilizaremos "git push origin --delete v0.2"![image-20220315111227480](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315111227480.png)
+
