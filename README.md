@@ -86,5 +86,16 @@ Para crear los equipos accederemos a la organización>equipos>nuevo. En este apa
 
 ### Fork y pull request
 
-Para realizar los forks tendremos que buscar y acceder al repositorio de dos compañeros buscando el nombre del mismo, después, en la esquina superior derecha pulsaremos sobre "fork", lo que hara que se descargue una copia del archivo en nuestro perfil. En este punto tendríamos solamente que editar el código de html y escribir nuestro nombre en el mismo, guardarlo y enviar al autor un pull request solicitando que añada al código los cambios que nosotros hemos realizado.
+Para realizar los forks tendremos que buscar y acceder al repositorio de dos compañeros buscando el nombre del mismo, después, en la esquina superior derecha pulsaremos sobre "fork", lo que hara que se descargue una copia del archivo en nuestro perfil. En este punto tendríamos que usar en la consola el comando "git clone https://github.com/victor-aljama/Pagina-web.git" para guardar una copia en nuestro repositorio local y así poder editar el código de html y escribir nuestro nombre en el mismo. Tras esto tenemos que guardar los cambios y enviar el html editado de vuelta al repositorio remoto y sollicitar el pull request al autor para que añada al código los cambios que nosotros hemos realizado. Esto lo haremos pulsando sobre "pull request" en su repositorio donde tiene el código de la página web y elegir las ramas que queremos comparar, que en este caso serían su rama donde tiene almacenado el documento original y nuestra rama con el archivo modificado.
 
+Una vez la otra persona nos envíe su pull request tendremos que acceder a nuestro repositorio y pulsar en el apartado de pull request, aquí nos aparecerán las solicitudes y tendremos que decidir su hacemos merge o no con la versión que hemos creado y la versión modificada por la otra persona. Llegados a este punto y después de aceptar la solicitud, nuestro archivo .html quedaría modificado.
+
+<img src="C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315161625922.png" alt="image-20220315161625922" style="zoom:50%;" />
+
+En este caso solamente he podido realizar uno de los dos pull request que se pedían, ya que nadie más ha conseguido llegar a este punto por el momento.
+
+Ambos hemos modificado los ajustes de nuestros repositorios para que la vista de los mismos sea pública. No obstante, dejo aquí los enlaces.
+
+- https://github.com/masteruah-victor-aljama/prueba1.git (Mi repositorio)
+- https://github.com/victor-aljama/Pagina-web.git (Fork del repositorio de Javi)
+- https://github.com/masteruah-javieresccla/Pagina-web (Repositorio de Javi)
