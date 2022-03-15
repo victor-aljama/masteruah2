@@ -32,7 +32,7 @@ Nos posicionamos en la rama main con "git checkout main" y después usamos "git 
 
 Abrimos el archivo 1.txt mediante el comando "start 1.txt", lo modificamos, lo guardamos y hacemos commit y realizamos el mismo proyecto en la rama v0.2, para posicionarnos sobre ella recuerdo que debemos usar el comando "git checkout v0.2". Una vez que hayamos hecho "git push https://github.com/victor-aljama/masteruah2" y hayamos subido los archivos modificados en ambas ramas nos volvemos a posicionar en la rama main.
 
-Para comprobar que efectivamente hay diferencias entre las ramas introducimos en la consola "git diff main v0.2" y se nos mostrarán todas las diferencias que existen en todos los archivos de cada rama.![image-20220315104826136](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315104826136.png)
+Para comprobar que efectivamente hay diferencias entre las ramas introducimos en la consola "git diff main v0.2" y se nos mostrarán todas las diferencias que existen en todos los archivos de cada rama.<img src="C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315104826136.png" alt="image-20220315104826136" style="zoom:50%;" />
 
 Esto nos servirá para saber qué cambios tenemos que hacer y en qué rama para conservar la versión deseada. Una vez hayamos entrado en los archivos necesarios para modificarlos finalmente podremos hacer el merge que nos piden mediante el código ya visto estando antes posicionados en la rama main: "git merge v0.2" ![image-20220315105138475](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315105138475.png)
 
@@ -42,15 +42,17 @@ Para mostrar una lista de las ramas que hemos creado basta con introducir el sig
 
 ### Eliminar rama y crear etiqueta
 
-Para eliminar la rama v0.2 solamente tendremos que usar "git branch -d v0.2" o, como ha sido mi caso al no estar completamente sincronizada con la rama remota, "git branch -D v0.2". Una vez la hemos borrado a nivel local, para hacerlo a nivel remoto utilizaremos "git push origin --delete v0.2"![image-20220315111227480](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315111227480.png)
+Para eliminar la rama v0.2 solamente tendremos que usar "git branch -d v0.2" o, como ha sido mi caso al no estar completamente sincronizada con la rama remota, "git branch -D v0.2". Una vez la hemos borrado a nivel local, para hacerlo a nivel remoto utilizaremos "git push origin --delete v0.2".![image-20220315111227480](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315111227480.png)
+
+Para crear la etiqueta con el mismo nombre de la rama seguiremos el mismo proceso que con la etiqueta v0.1.
 
 ### Perfil  de  GitHub
 
-Esta captura pertenece a mi perfil de github: ![image-20220315111658591](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315111658591.png)
+Esta captura pertenece a mi perfil de github: <img src="C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315111658591.png" alt="image-20220315111658591" style="zoom: 33%;" />
 
 ### Autenticación en dos factores
 
-Para realizar la autenticacion en dos factores tenemos que acceder a ajustes>autenticacion en dos factores y seguir los pasos que nos indican. Al final nos aparecerá esta pantalla![image-20220315112046826](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315112046826.png)
+Para realizar la autenticacion en dos factores tenemos que acceder a ajustes>autenticacion en dos factores y seguir los pasos que nos indican. Al final nos aparecerá esta pantalla<img src="C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315112046826.png" alt="image-20220315112046826" style="zoom: 33%;" />
 
 ### Perfil GitHub de mis compañeros
 
@@ -60,5 +62,14 @@ Estos son los compañeros a los que he seguido en github:
 
 Para añadir una estrella a sus repositorios debemos acceder a dicho apartado en cada uno de sus perfiles y pulsar sobre el icono de la estrella.
 
+### Tabla con información de compañeros de clase
 
+|            NOMBRE             |                           GITHUB                            |
+| :---------------------------: | :---------------------------------------------------------: |
+|      Javier García Ruiz       | [GitHub Javier García](https://github.com/JavierGarciaRuiz) |
+|   Javier Escribano Claudel    | [GitHub Javier Escribano](https://github.com/javieresccla)  |
+| Rafael Damián Cristea Cristea |  [GitHub Damián Cristea](https://github.com/MrDamian1723)   |
 
+### Colaboradores
+
+Si queremos añadir colaboradores al repositorio para que lo puedan modificar sin necesidad de realizar pull requests accederemos al repositorio deseado>ajustes>colaboradores>añadir. Una vez aquí necesitamos su email o nombre de usuario para enviar una invitación. El resultado final es este: <img src="C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315125447349.png" alt="image-20220315125447349" style="zoom:50%;" />
