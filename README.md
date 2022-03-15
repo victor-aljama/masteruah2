@@ -17,3 +17,8 @@ Para subirlo necesitamos el comando "git push origin v0.1"
 7- Nos posicionamos en la rama main con "git checkout main" y después usamos "git merge v0.2" para hacer merge directo.![image-20220314213512471](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220314213512471.png)
 
 8- Abrimos el archivo 1.txt mediante el comando "start 1.txt", lo modificamos, lo guardamos y hacemos commit y realizamos el mismo proyecto en la rama v0.2, para posicionarnos sobre ella recuerdo que debemos usar el comando "git checkout v0.2". Una vez que hayamos hecho "git push https://github.com/victor-aljama/masteruah2" y hayamos subido los archivos modificados en ambas ramas nos volvemos a posicionar en la rama main.
+
+Para comprobar que efectivamente hay diferencias entre las ramas introducimos en la consola "git diff main v0.2" y se nos mostrarán todas las diferencias que existen en todos los archivos de cada rama.![image-20220315104826136](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315104826136.png)
+
+Esto nos servirá para saber qué cambios tenemos que hacer y en qué rama para conservar la versión deseada. Una vez hayamos entrado en los archivos necesarios para modificarlos finalmente podremos hacer el merge que nos piden mediante el código ya visto estando antes posicionados en la rama main: "git merge v0.2" ![image-20220315105138475](C:\Users\victo\AppData\Roaming\Typora\typora-user-images\image-20220315105138475.png)
+
